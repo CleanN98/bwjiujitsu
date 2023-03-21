@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="./src/imagens/Logo-limpa.png" type="image/x-icon">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+
+    <title>Bw Jiu-Jítsu</title>
+</head>
+
+<body>
+
+    <!--Menu Principal-->
+    <nav class="navbar navbar-expand-lg bg-dark" style="height: 80px;">
+        <div class="container">
+            <a class="navbar-brand text-success" href="#"><strong>BW Jiu-Jítsu</strong></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Quem Somos?</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Fale
+                        Conosco</a>
+
+                </div>
+            </div>
+    </nav>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contato</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <input type="text" placeholder="Nome" class="form-control mt-2">
+                        <input type="email" placeholder="E-mail" class="form-control mt-2">
+                        <input type="tel" placeholder="Telefone" class="form-control mt-2">
+                        <input type="Text" placeholder="Assunto" class="form-control mt-2">
+                        <textarea placeholder="Digite Sua messagem" class="form-control mt-2"></textarea>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--cabeçalho-->
+    <header class="container my-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 pt-5" style="padding-top: 150px !important">
+                <h1 class="display-3 text-center text-md-start"><span class="text-success mt-5">Jiu-Jítsu Um Estilo De
+                        vida.</span></h1>
+                <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8 mt-4">Não use o Jiu-Jitsu como arma,
+                    mas
+                    como um esporte que ofereça uma filosofia de vida. Venha fazer parte dessa Família!!!
+
+
+                </p>
+                <div class="mt-5">
+                    <a class="btn btn-success btn-lg" href="https://www.whatsapp.com/?lang=pt_br" role="button">Marque
+                        sua Aula
+                        experimental</a>
+
+                    <!--<a button class="btn btn-success btn-lg"><a
+                            href="https://icons.getbootstrap.com/icons/camera-reels/">Marque sua Aula
+                            experimental</a></button>-->
+                    <!-- <button class="btn btn-outline-success btn-lg" data-bs-toggle="modaldois" data-bs-target="#exampleModaldois">Por que Praticar Jiu-Jítsu?</button>-->
+                    <a class="btn btn-outline-success btn-lg" href="#" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Por que Praticar Jiu-Jítsu?</a>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 p-1">
+                <img src="./src/imagens/Logo-limpa.png" class="img-fluid">
+            </div>
+
+        </div>
+
+        <!-- Modal dois -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Por que Praticar Jiu-Jítsu?</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Benefícios do jiu-jitsu:</strong> 
+                        <ul>
+
+                            <li>Desenvolve a força, a resistência e a flexibilidade.</li>
+                            <li>Foca na luta e na movimentação no chão.</li>
+                            <li>Ajuda a perder peso e ter uma ótima condição física.</li>
+                            <li>Ensina também técnicas de defesa pessoal e desenvolve a autoconfiança.</li>
+                            <li>O estilo de vida que acompanha a prática do jiu-jitsu traz benefícios ao corpo por meio
+                                de
+                                alongamentos e alimentação saudável.</li>
+                            <li>Ajuda a combater o stress e a ansiedade, proporcionando bem-estar.</li>
+                            <li>Aumenta o reflexo.</li>
+                            <li> Proporciona ao praticante um corpo mais definido.</li>
+                            <li>Melhora a capacidade cardiovascular e respiratória do praticante.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <!--<button type="button" class="btn btn-primary">Understood</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+    <!--Icones-->
+    <div class="container mb-5">
+        <div class="row my-5">
+
+            <div class="col-4">
+                <div class="card border-0">
+                    <i class="bi bi-camera text-success ms-3" style="font-size: 3rem;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Fotos</h5>
+                        <p class="card-text text-muted">Fotos de eventos, treinos e campeonatos.</p>
+                        <a href="https://photos.app.goo.gl/eXV9nJhkgQU1ZnxY9" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <i class="bi bi-people  text-success ms-3" style="font-size: 3rem;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Professores</h5>
+                        <p class="card-text text-muted">Conheça os professores da Bw.</p>
+                        <a href="#" class="btn btn-primary">clique aqui</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <i class="bi bi-camera-reels text-success ms-3" style="font-size: 3rem;"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Vídeos</h5>
+                        <p class="card-text text-muted">Highlight de campeonatos.</p>
+                        <a href="https://photos.app.goo.gl/j9mB5PaYNaPf2fPu9" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <footer class="mt-5 bg-dark text-center text-success p-4">
+        Todos os Direito Reservado para Brothers of War.
+        <br>Densenvolvido por Elvis Barreto.
+    </footer>
+    <!-- Bs js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
